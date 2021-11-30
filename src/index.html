@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Color Picker</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="heading">
+      <div class="mx-auto" style="width: 200px;">
+        <h1>Color picker app</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <h2>Pick a color from swatch below hit submit to have a color pallet generated</h2>
+    </div>
+
+    <div id="formArea">
+      <form id="colorSubmit">
+
+        <div class="row justify-content-center">
+          <div class="colorHarmonySelection">
+            <div class="form-group">
+              <label for="colorHarmony">Color Harmony:</label>
+              <select class="form-control" id="colorHarmony">
+                <option>Left Complementary</option>
+                <option>Right Complementary</option>
+                <option>Monochromatic</option>
+                <option>Analogous</option>
+                <option>Triadic</option>
+                <option>Tetradic</option>
+                <option>Random pallet</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class=" col-md-4">
+            <input type="color" id="color-picker" value="#0000ff">
+          </div>
+          <div class=" col-md-4">
+            <button type="btn">Confirm color</button>
+          </div>
+          <div class=" col-md-4">
+            <div class="panel" id="userColorPanel">
+              <h1>Your color:<span id="userColorDisplay"></span></h1>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="row" id="spacer1">
+    </div>
+
+    <div class="row" id="output">
+      <div class="col-md-3">
+        <div class="panel" id="color1">
+          <p>Color:<span id="color1Id"></span></p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="panel" id="color2">
+          <p>Color:<span id="color2Id"></span></p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="panel" id="color3">
+          <p>Color:<span id="color3Id"></span></p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="panel" id="color4">
+          <p>Color:<span id="color4Id"></span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- <input type="color" id="color-picker" value="#0000ff"> -->
+<!-- <button type="btn">Confirm color</button> -->
+<!-- <div class="panel" id="userColorPanel">
+  <h1>Your color:<span id="userColorDisplay"></span></h1>
+</div> -->
