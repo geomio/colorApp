@@ -3,5 +3,5 @@
 // console.log(test("bbffff"));
 
 
-let horse = 'http://colormind.io/list/'
-console.log('http://colormind.io/list/');
+// let horse = 'http://colormind.io/list/'
+// console.log('http://colormind.io/list/');

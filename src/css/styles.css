@@ -30,7 +30,8 @@ body {
   background-image: none;
   text-align: center;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: medium;
+  height: 3em;
 }
 
 #userColorPanel {

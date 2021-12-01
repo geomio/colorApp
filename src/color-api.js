@@ -1,10 +1,10 @@
 export default class ColorPicker {
-  static getColorSuggestion() {
+  static getColorSuggestion(userColor) {
     return new Promise(function (resolve, reject) {
       var url = "http://colormind.io/api/";
       var data = {
         model: "default",  //this area should affect the over all color themes deafult seems to be ideal for either generating random pallets or random suggestions based of input
-        input: ["N", "N", "N"]  // for random array of 5 rgb colors
+        input: [userColor, "N", "N", "N"]  // for random array of 5 rgb colors
       }
       var request = new XMLHttpRequest();
       request.onload = function () {
